@@ -1,0 +1,254 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Box Icon -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/boxicons@latest/css/boxicons.min.css">
+
+    <!-- Custom Styling -->
+    <link rel="stylesheet" href="./CSS/style.css">
+
+    <title>Single Post</title>
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <h1 class="logo-text"><img src="./Images/logo.png" alt="logo" width="110px" height="70px"></h1>
+        </div>
+        <i class="fa fa-bars menu-toggle"></i>
+        <ul class="nav">
+            <li><a href="./index.html">Home</a></li>
+            <li><a href="./login.html">About</a></li>
+            <li><a href="./register.html">Services</a></li>
+            <li>
+                <a href="#">
+                    <i class="fa fa-user"></i>
+                    Mitch Michael
+                    <i class="fa fa-chevron-down" style="font-size: .8em;"></i>
+                </a>
+                <ul>
+                    <li><a href="#">Dashboard</a></li>
+                    <li><a href="#" class="logout">Logout</a></li>
+                </ul>
+            </li>
+        </ul>
+    </header>
+
+    <!-- Page Wrapper -->
+    <div class="page-wrapper">
+
+        <!-- Content -->
+        <div class="content clearfix">
+
+            <!-- Main Content Wrapper -->
+            <div class="main-content-wrapper">
+                <div class="main-content single">
+                    <h1 class="post-title">Exploring the Timeless Connection between Art and the Human Experience</h1>
+                    
+                    <div class="post-content">
+                        <p>
+                            Art has been an integral part of the human experience for centuries, transcending cultural boundaries and evolving alongside the ever-changing tapestry of society. 
+                            In this exploration of the profound relationship between art and the human spirit, we delve into the ways in which artistic expression has shaped our perceptions, fostered creativity, and connected us across time and space.
+                            <br>
+                            <br>
+                            <b>Art as a Mirror of Culture</b>
+                            <br>
+                            Art serves as a mirror reflecting the cultural, social, and political landscapes of its time. 
+                            From the intricate cave paintings of prehistoric humans to the avant-garde movements of the 20th century, artists have consistently captured the essence of their societies. 
+                            Each stroke of the brush, chisel of the sculptor's tool, or note played by a musician has the power to encapsulate the collective consciousness of an era.
+                            <br>
+                            <br>
+                            <b>The Power of Creativity</b>
+                            <br>
+                            Artistic expression fosters creativity, offering a unique channel for individuals to communicate ideas, emotions, and perspectives that may otherwise remain unspoken. 
+                            Whether through visual arts, literature, music, or performance, creativity acts as a catalyst for innovation and a medium for individuals to explore the boundless realms of imagination.
+                            <br>
+                            <br>
+                            <b>Art as a Universal Language</b>
+                            <br>
+                            One of the most remarkable aspects of art is its ability to transcend linguistic and cultural barriers. 
+                            A painting, a melody, or a dance can evoke emotions and convey messages that resonate with people from diverse backgrounds. 
+                            In this way, art becomes a universal language that fosters understanding and brings people together, fostering a sense of shared humanity.
+                            <br>
+                            <br>
+                            <b>The Emotional Impact of Art</b>
+                            <br>
+                            Art has a profound impact on our emotions, capable of eliciting joy, sorrow, nostalgia, or awe. 
+                            Whether experiencing the melancholy of a classical symphony or the vibrant hues of a contemporary painting, 
+                            individuals often find solace, inspiration, or a profound connection to the world around them through artistic encounters.
+                            <br>
+                            <br>
+                            <b>The Intersection of Technology and Art</b>
+                            <br>
+                            In the 21st century, technology has opened up new avenues for artistic exploration. 
+                            Digital art, virtual reality installations, and interactive exhibits redefine the boundaries of traditional artistic mediums, offering both creators and audiences unprecedented opportunities for engagement. 
+                            As we navigate this digital age, the relationship between art and technology continues to evolve, providing fresh perspectives and innovative possibilities.
+                            <br>
+                            <br>
+                            In conclusion, Art is not merely a static entity confined to museums or galleries; it is a dynamic force that weaves through the fabric of our lives, enriching our experiences and shaping the narratives of our shared existence. As we appreciate the diverse forms of artistic expression, we acknowledge the profound impact it has on our emotions, thoughts, and the way we perceive the world.
+                            In the timeless dance between the artist and the observer, we find a connection that transcends time and space, reminding us of the enduring power of creativity to illuminate the human spirit.
+                        </p>
+                        <p><i>10 minutes read</i></p>
+                        <p>
+                            <i class="bx bx-user"><b>Emily Thompson</b></i> 
+                            <i class="bx bx-calendar">December 1, 2023</i> 
+                        </p>
+
+                        <div class="container">
+                            <div class="voting">
+
+                                <button id="likebtn">
+                                    <i class="fa fa-thumbs-up"></i>
+                                </button>
+                                <input type="number" id="input1" value="0" name="">
+
+                                <button id="dislikebtn">
+                                    <i class="fa fa-thumbs-down"></i>
+                                </button>
+                                <input type="number" id="input2" value="0" name="">
+
+                            </div>
+                        </div>
+                        <br>
+                        <div>
+                            <form action="single.html" method="post">
+                                <textarea rows="3" name="message" class="text-input comment" placeholder="Your message..."></textarea><br>
+                                <button type="submit" class="btn btn-big comment-btn">Comment</button>
+                            </form>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+            <!-- // Main Content -->
+
+            <!-- Side Bar -->
+            <div class="sidebar single">
+
+                <div class="section popular">
+                    <h2 class="section-title">Popular</h2>
+
+                    <div class="post clearfix">
+                        <img src="./Images/health.jpg" alt="">
+                        <a href="" class="title"><h4>The Secrets to a Healthy Living</h4></a>
+                    </div>
+
+                    <div class="post clearfix">
+                        <img src="./Images/tech.jpg" alt="">
+                        <a href="" class="title"><h4>Starting a Career in Tech: The Dos and Don'ts</h4></a>
+                    </div>
+
+                    <div class="post clearfix">
+                        <img src="./Images/lifestyle.jpg" alt="">
+                        <a href="" class="title"><h4>Healthy Lifestyle Definition, Factors & Tips</h4></a>
+                    </div>
+
+                    <div class="post clearfix">
+                        <img src="./Images/fitness.jpg" alt="">
+                        <a href="" class="title"><h4>Stay Fit at Home with These Simple Tips</h4></a>
+                    </div>
+
+                    <div class="post clearfix">
+                        <img src="./Images/travel.jpg" alt="">
+                        <a href="" class="title"><h4>Travel Locations that are Worth Considering</h4></a>
+                    </div>
+                </div>
+
+                <div class="section topics">
+                    <h2 class="section-title">Topics</h2>
+                    <ul>
+                        <li><a href="#">Art</a></li>
+                        <li><a href="#">Beauty and Fashion</a></li>
+                        <li><a href="#">Health and Fitness</a></li>
+                        <li><a href="#">Lifestyle</a></li>
+                        <li><a href="#">Nature</a></li>
+                        <li><a href="#">Photography</a></li>
+                        <li><a href="#">Tech</a></li>
+                        <li><a href="#">Travel</a></li>
+                    </ul>
+                </div>
+
+            </div>
+            <!-- // Side Bar -->
+        </div>
+        <!-- // Content -->
+    </div>
+    <!-- // Page Wrapper -->
+
+    <!-- Footer -->
+    <div class="footer">
+        <div class="footer-content">
+
+            <div class="footer-section about">
+                <h1 class="logo-text"><img src="./Images/logo.png" alt="logo" width="110px" height="70px"></h1>
+                <p>
+                    At Group10, we believe in the power of words, the magic of storytelling, and the vibrant community that thrives on shared passions. 
+                    Our platform is more than just a space for blogs; it's a welcoming hub where creators, dreamers, and explorers converge to share their unique perspectives with the world.
+                </p>
+                <div class="contact">
+                    <span><i class="fa fa-phone"></i> &nbsp;123-456-789</span>
+                    <span><i class="fa fa-envelope"></i> &nbsp;info@group10.com</span>
+                </div>
+                <div class="socials">
+                    <a href="#"><i class="fab fa-facebook"></i></a>
+                    <a href="#"><i class="fab fa-instagram"></i></a>
+                    <a href="#"><i class="fab fa-twitter"></i></a>
+                    <a href="#"><i class="fab fa-youtube"></i></a>
+                    <a href="#"><i class="fab fa-linkedin"></i></a>
+                </div>
+            </div>
+            <div class="footer-section links">
+                <h2>Quick Links</h2>
+                <br>
+                <ul>
+                    <a href="#">
+                        <li>Events</li>
+                    </a>
+                    <a href="#">
+                        <li>Gallery</li>
+                    </a>
+                    <a href="#">
+                        <li>License</li>
+                    </a>
+                    <a href="#">
+                        <li>Terms of Service</li>
+                    </a>
+                    <a href="#">
+                        <li>Privacy Policy</li>
+                    </a>
+                </ul>
+            </div>
+            
+            <div class="footer-section contact-form">
+                <h2>Contact Us</h2>
+                <br>
+                <form action="index.html" method="post">
+                    <input type="email" name="email" class="text-input contact-input" placeholder="Your email address...">
+                    <textarea rows="4" name="message" class="text-input contact-input" placeholder="Your message..."></textarea>
+                    <button type="submit" class="btn btn-big contact-btn"><i class="fa fa-envelope"></i>
+                        Send</button>
+                </form>
+            </div>
+        </div>
+
+        <div class="footer-bottom">
+            Copyright &copy; 2023 Group 10
+        </div>
+    </div>
+    <!-- Footer -->
+</body>
+<!-- JQuery -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js" integrity="sha512-v2CJ7UaYy4JwqLDIrZUI/4hqeoQieOmAZNXBeQyjo21dadnwR+8ZaIJVT8EE2iyI61OV8e6M8PP2/4hpQINQ/g==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+<!-- Slick Carousel -->
+<script type="text/javascript" src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+
+<!-- Custom Script -->
+<script src="./JavaScript/app.js"></script>
+
+<!-- Font Awesome -->
+<script src="https://kit.fontawesome.com/ed91c6e031.js" crossorigin="anonymous"></script>
+
+</html>
